@@ -1,7 +1,23 @@
-import java.util.Scanner;
+
+//class Calcul {
+//    public int add(int num1, int num2) {
+//        int sum = num1 + num2;
+//        return sum;
+//    }
+//}
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Calcul calc = new Calcul();
+//        int result = calc.add(5, 7);
+//        System.out.println(result);
+//    }
+//}
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hallo");
+        Calcul calc = new Calcul();
+        int result = calc.add(1, 8);
+        System.out.println(result);
     }
 }
