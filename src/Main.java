@@ -17,7 +17,7 @@
 public class Main {
     public static void main(String[] args) {
         Calcul calc = new Calcul();
-        int result = calc.add(5, 8);
+        int result = calc.add(3, 8);
         System.out.println(result);
     }
 }
